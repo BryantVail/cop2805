@@ -12,7 +12,6 @@ public class Practice {
 //		myArray.add(1);
 		
 		System.out.println(myArray);
-		System.out.println(myArray);
 		
 		
 	}
