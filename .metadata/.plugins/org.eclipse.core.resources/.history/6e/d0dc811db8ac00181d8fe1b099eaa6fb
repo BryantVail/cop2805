@@ -5,11 +5,10 @@ import java.util.ArrayList;
 public class Practice {
 
 	public static void main(String[] args) {
-		ArrayList<String> myArray = new ArrayList<>();
+		ArrayList<String> myArray = new ArrayList<String>();
 		myArray.add("John");
 		myArray.add("Bryant");
 		myArray.add("Lewis");
-//		myArray.add(1);
 		
 		System.out.println(myArray);
 		
@@ -24,4 +23,3 @@ public class Practice {
 //
 //	at footballScoresExample.Practice.main(Practice.java:9)
 
-//	[John, Bryant, Lewis, 1] prints but is not reliable probably outside of native objects. 

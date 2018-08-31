@@ -9,7 +9,7 @@ public class Practice {
 		myArray.add("John");
 		myArray.add("Bryant");
 		myArray.add("Lewis");
-//		myArray.add(1);
+		myArray.add(1);
 		
 		System.out.println(myArray);
 		
