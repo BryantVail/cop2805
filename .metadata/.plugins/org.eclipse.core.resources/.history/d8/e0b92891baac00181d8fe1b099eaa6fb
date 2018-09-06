@@ -13,7 +13,7 @@ public class Practice {
 		
 		System.out.println(myArray);
 		System.out.println(myArray);
-		//this is a comment
+		
 		
 	}
 	
