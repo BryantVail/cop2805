@@ -1,6 +1,7 @@
 package week02;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Practice {
 	
@@ -30,6 +31,13 @@ public class Practice {
 		nfl.forEach(t -> {
 			System.out.print(t + "_");
 		});
+		
+		
+		//4. manually iterate with an iterator
+		Iterator<Team> iterator = nfl.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next()+ " ");
+		}
 		
 		
 	}
