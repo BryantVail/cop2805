@@ -12,7 +12,7 @@ public class Practice {
 //		myArray.add(1);
 		
 		System.out.println(myArray);
-		System.out.println(myArray);
+		System.out.println("myArray.contains(\"jacob\") returned: " + myArray.contains("jacob"));
 		//this is a comment
 		
 	}
