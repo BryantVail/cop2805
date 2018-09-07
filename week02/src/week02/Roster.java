@@ -14,16 +14,18 @@ public class Roster {
 	public boolean contains(String name, ArrayList<String> roster) {
 		String playerName = "";
 		ArrayList<String> localRoster = roster;
+		int i = 0;
 		
-		for(int i = 0; i <localRoster.size() ; i++) {
+		do {
 			playerName = localRoster.get(i).toString();
 			if(roster.get(i).toString() == playerName) {
 				return true;
 			}else {
 				return false;
 			}
-		}
-		return false;
+		}while(i<localRoster.size());
+			
+		
 		
 		
 	}
