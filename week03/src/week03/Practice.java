@@ -31,6 +31,9 @@ public class Practice {
 				System.out.print("Enter product price: ");
 				double price = input.nextDouble();
 				System.out.print("Yes");
+				
+				
+				
 				break;
 			case "d":
 				System.out.println("Enter product id to delete: ");
