@@ -15,7 +15,7 @@ public class Practice {
 		Map employees = new HashMap<Integer, Employee>();
 //		Map map2 = new HashMap<String, String>();
 		
-		employees.put(101, new Employee("Bryant", "Vail", "222 w fiesta Key Loop"));
+		employees.put(101, new Employee("Lewis", "Vail", "223 w fiesta Key Loop"));
 		employees.put(102, new Employee("Lewis", "Vail", "223 w fiesta Key Loop"));
 		employees.put(103, new Employee("John", "Vail", "224 w fiesta Key Loop"));
 		employees.put(104, new Employee("Shirley", "Vail", "225 w fiesta Key Loop"));
@@ -32,9 +32,9 @@ public class Practice {
 	
 	class Employee{
 		
-public Employee(String firstName, String lastName, String address) {
+		public Employee(String firstName, String lastName, String address) {
 			
-			this.id = id;
+			
 			this.firstName = firstName;
 			this.lastName = lastName;
 			this.address = address;
