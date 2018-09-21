@@ -3,7 +3,9 @@ package week03Assignment;
 public interface IAlertRaiser {
 	
 	
-	public abstract <E> E toggleAlert(E toBeAlterted);
+	public abstract boolean toggleAlert(boolean alertStatus);
+	public abstract boolean raiseAlert(boolean alertStatus);
+	public abstract boolean dropAlert(boolean alertStatus);
 	
 	
 		
