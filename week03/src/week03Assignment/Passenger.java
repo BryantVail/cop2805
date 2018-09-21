@@ -1,1 +1,29 @@
 
+
+public class Passenger implements IAlertRaiser{
+  
+  
+}//end class Passenger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
