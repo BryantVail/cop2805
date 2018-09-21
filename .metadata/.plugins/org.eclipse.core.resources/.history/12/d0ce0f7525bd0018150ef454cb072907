@@ -1,0 +1,32 @@
+
+public class Seat{
+	
+	public String 	Row;
+	public int		seatNumber;
+	public boolean	alert;
+	
+	public void setAlert(boolean onTrue-offFalse){
+		boolean alert;
+		if(onTrue-offFalse == true || onTrue-offFalse == false){
+			
+			alert =  onTrue-offFalse;
+			
+		}
+		this.alert = alert;
+	}
+	
+	public void setSeatNumber(int seatNumber){
+		if(row <=1 && <5){
+			this.seatNumber = seatNumber;
+		}else{
+			throw OutOfBoundsException;
+		}
+	}
+	
+}
+
+
+
+
+
+

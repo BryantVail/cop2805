@@ -1,0 +1,11 @@
+package week03Assignment;
+
+public interface IAlertRaiser {
+	
+	public raiseAlert<T>(Seat seat) {
+		
+		
+		
+	}
+		
+}

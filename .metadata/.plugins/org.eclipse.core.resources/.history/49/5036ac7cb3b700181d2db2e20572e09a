@@ -1,0 +1,26 @@
+package week03;
+
+import java.util.ArrayList;
+
+public class Store {
+	
+	private ArrayList<Product> products = new ArrayList<>();
+	
+	public ArrayList<Product> getProducts(){
+		return products;
+	}
+	
+	public void addProduct(Product newProduct) {
+		products.add(newProduct);
+	}
+	
+	public void removeProduct(int productId) {
+		products.remove(productRemoved)
+	}
+	
+	public void recordPurchase(int productId, int quantityPurchased) {
+		//to do, decrement inventory for the product
+		
+	}
+
+}

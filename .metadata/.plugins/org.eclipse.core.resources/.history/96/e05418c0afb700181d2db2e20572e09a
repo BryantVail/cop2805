@@ -1,0 +1,25 @@
+package project;
+
+public class IteratorTest {
+	
+	public void execute() {
+		
+	}
+	
+	public long getElapsedTimeInMilliseconds() {
+		
+	}
+	
+	public long getIteratorElapsedTimeInMilliseconds() {
+		
+	}
+	
+	public long getListSize() {
+		
+	}
+	
+	public int IteratorTest() {
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package week03Assignment;
+
+public interface IAlertRaiser {
+	
+	public abstract <E> E raiseAlert(E toBeAlterted);
+		
+}

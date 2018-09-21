@@ -1,0 +1,30 @@
+package week02;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
+public class Roster {
+	
+	private ArrayList<String> roster = new ArrayList<>();
+	
+	public Roster() {
+		
+	}
+	
+	public boolean contains(String name, ArrayList roster) {
+		String playerName = "";
+		
+		do{
+			playerName = roster.get(i).toString();
+			if(roster.get(i).toString() == playerName) {
+				return true;
+			}else {
+				return false;
+			}
+		}while(int i = 0; i <roster.size(); i++ )
+		
+	}
+	
+	
+
+}

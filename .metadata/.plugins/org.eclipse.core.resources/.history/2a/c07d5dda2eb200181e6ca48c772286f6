@@ -1,0 +1,33 @@
+package week02;
+
+import java.util.ArrayList;
+
+public class Practice {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Team> nfl = new ArrayList<>();
+		nfl.add(new Team("Bears"));
+		nfl.add(new Team("Bengals"));
+		nfl.add(new Team("Bucs"));
+		nfl.add(new Team("Browns"));
+		
+		
+		System.out.println("The NFL: " + nfl);
+		System.out.println("Index of Bucs: " + nfl.indexOf("Bucs"));
+		
+		for(int i = 0; i < nfl.size(); i++) {
+			
+			System.out.print(nfl.get(i)+ " ");
+			
+		}
+		
+		//manually iterate
+		for(Team t: nfl) {
+			System.out.print(t + " ");
+		}
+		
+		
+	}
+
+}

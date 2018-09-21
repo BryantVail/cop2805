@@ -1,0 +1,32 @@
+package week04;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Set set1 = new TreeSet<String>();
+		Set set2 = new HashSet<String>();
+		set1.add("Lewis");
+		set1.add("Bryant");
+		set1.add("John");
+		
+		set2.add("Shirley");
+		set2.add("Lewis");
+		set2.add("LewisJr");
+		set2.add("John");
+		
+		//Union: all of both collections, not duplicates. 
+		set1.addAll(set2);
+		
+		//Intersection: Duplicate within the list
+		set1.retainAll(set2);
+		
+		System.out.println("set1 = "+ set1);
+
+	}
+
+}

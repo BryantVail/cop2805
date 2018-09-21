@@ -1,0 +1,21 @@
+package week03;
+
+public class Product {
+	
+	public String name; // product name
+	public double price;
+	public int inventory;
+	
+	public Product(String name, double price, int inventory) {
+		this.name = name;
+		this.price = price;
+		this.inventory = inventory;
+	}
+	
+	@Override
+	public String toString() {
+		return name + ": " + price + ", " + inventory + " available.";
+	}
+	
+
+}

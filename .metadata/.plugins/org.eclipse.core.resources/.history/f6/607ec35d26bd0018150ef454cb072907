@@ -1,0 +1,32 @@
+
+public class Seat{
+	
+	public String 	Row;
+	public int		seatNumber;
+	public boolean	alert;
+	
+	public void setAlert(boolean onTrueOffFalse){
+		boolean alert;
+		if(onTrueOffFalse == true || onTrueOffFalse == false){
+			
+			alert =  onTrueOffFalse;
+			
+		}
+		this.alert = alert;
+	}
+	
+	public void setSeatNumber(int seatNumber){
+		if(seatNumber <=1 && seatNumber <5){
+			this.seatNumber = seatNumber;
+		}else{
+			//throw exception
+		}
+	}
+	
+}
+
+
+
+
+
+
