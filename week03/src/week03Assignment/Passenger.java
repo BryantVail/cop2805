@@ -17,6 +17,18 @@ public class Passenger implements IAlertRaiser{
     
   }//end toggleAlert
   
+  public boolean raiseAlert(boolean alertStatus){
+    
+    if(alertStatus == false){
+      System.out.println("Raising the alert");
+      return true;
+    }else{
+      System.out.println("The Alert is already raised");
+     return true; 
+    }
+    
+  }//end toggleAlert
+  
   
 }//end class Passenger
 
