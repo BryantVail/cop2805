@@ -20,14 +20,26 @@ public class Passenger implements IAlertRaiser{
   public boolean raiseAlert(boolean alertStatus){
     
     if(alertStatus == false){
-      System.out.println("Raising the alert");
+      System.out.println("Raising the alert.");
       return true;
     }else{
-      System.out.println("The Alert is already raised");
+      System.out.println("The Alert is already raised.");
      return true; 
     }
     
-  }//end toggleAlert
+  }//end raiseAlert
+  
+  public boolean dropAlert(boolean alertStatus){
+    //dropAlert
+    if(alertStatus == false){
+      System.out.println("alert is already dropped.");
+      return false;
+    }else{
+      System.out.println("The alert has been dropped.");
+     return false; 
+    }
+    
+  }//end dropAlert
   
   
 }//end class Passenger
