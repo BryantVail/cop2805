@@ -1,6 +1,6 @@
 package week03Assignment;
 
-public interface IAlertRaiserAdmin extends IAlertRaiser{
+public interface IAlertRaiserAll extends IAlertRaiserUser{
 	
 	public abstract <E> E turnOffAllAlerts(E[] toBeAlerted);
 
