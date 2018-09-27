@@ -3,7 +3,7 @@ package week04_quiz;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Practice {
+public class Question2 {
 
 	public static void main(String[] args) {
 
