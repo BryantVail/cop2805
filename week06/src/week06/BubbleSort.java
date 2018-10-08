@@ -14,7 +14,7 @@ public class BubbleSort {
 //					swap
 		
 		int n = A.length; 
-		for(int y =1; y <=n; x++) {
+		for(int y =1; y <=n; y++) {
 			if(A[y] > A[y+1]) {
 				int temp = A[y];
 				A[y] = A[y+1];
