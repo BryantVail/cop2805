@@ -1,5 +1,7 @@
 package week06;
 
+import week06.AbstractSort;
+
 public class QuickSort extends AbstractSort
 {
     /**

@@ -8,6 +8,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import week06.AbstractSort;
+
 public class TestCaseSorting
 {
 	public TestCaseSorting()
