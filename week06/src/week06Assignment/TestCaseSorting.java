@@ -1,4 +1,4 @@
-package week06;
+package week06Assignment;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -155,6 +155,7 @@ public class TestCaseSorting
 
     private int[] runTest(AbstractSort sorter)
     {
+    	//from video, calling sort
         trace("Testing sort routine " + sorter.getName());
         trace("---------------------------------");
 

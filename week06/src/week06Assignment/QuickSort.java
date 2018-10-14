@@ -1,4 +1,4 @@
-package week06;
+package week06Assignment;
 
 public class QuickSort extends AbstractSort
 {
