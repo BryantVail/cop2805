@@ -1,6 +1,7 @@
-package week06Assignment;
+package week06;
 
-import test.AbstractTestHarness;
+//import test.AbstractTestHarness;
+import org.junit.Test;
 
 
 public class TestHarness extends AbstractTestHarness
