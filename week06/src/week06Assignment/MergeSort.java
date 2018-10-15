@@ -1,5 +1,11 @@
 package week06Assignment;
 
+/**
+ * 
+ * @author Bryant
+ *
+ */
+
 public class MergeSort extends AbstractSort {
 	
 	public MergeSort(int[] ints) {
@@ -29,7 +35,7 @@ public class MergeSort extends AbstractSort {
         }
     }//end sort()
 	
-	//sort(int[] list) to overload the public method with no parameters.
+	//sort(int[] list) to overload the public method with no parameters
 	private void sort(int[] list) {
 		
 		if(list.length >1) {

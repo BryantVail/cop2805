@@ -1,6 +1,9 @@
 package week06;
 
+import week06Assignment.AbstractSort;
+import week06Assignment.InsertionSort;
 import week06Assignment.MergeSort;
+import week06Assignment.SelectionSort;
 
 public class Practice {
 	
@@ -17,9 +20,12 @@ public class Practice {
 		}
 		System.out.println();
 		
-		MergeSort newList = new MergeSort(nums);
+		SelectionSort newList = new SelectionSort(nums);
 		newList.sort();
-		System.out.print("After Sorting: "+ newList.printList());
+		for(int i = 0; i< newList.getList().length; i++) {
+			System.out.print(newList.getList()[i] + " ");
+		}
+		System.out.print("After Sorting: "+ newList.getList());
 		
 		
 		

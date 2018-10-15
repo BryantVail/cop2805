@@ -1,4 +1,4 @@
-package week06;
+package week06Assignment;
 
 //import test.AbstractTestHarness;
 import org.junit.Test;
