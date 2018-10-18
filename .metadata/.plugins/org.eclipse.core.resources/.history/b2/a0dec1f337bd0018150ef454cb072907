@@ -1,0 +1,21 @@
+package TeamsCollections_09202018;
+
+public class Team {
+	
+	public String teamName;
+	public int wins;
+	public int points;
+	
+	public Team() {
+		this.teamName = "";
+		this.wins = -1;
+		this.points = -1;
+	}
+	
+	public Team(String teamName, int wins, int points) {
+		this.teamName = teamName;
+		this.wins  = wins;
+		this.points = points;
+	}
+
+}

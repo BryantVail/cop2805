@@ -1,0 +1,31 @@
+
+lookupTopics:[
+TreeSet, 
+HashSet,
+"sets",
+Comparable
+],
+
+Map dataSetLists = new HashMap<String, String>;
+
+dataSetLists.put(
+
+collection of teams
+Key = team name;
+value = object;
+
+add some teams w/points
+1. print points associated for 
+2. print out teams in ranking order
+
+
+
+
+
+
+
+
+
+
+
+

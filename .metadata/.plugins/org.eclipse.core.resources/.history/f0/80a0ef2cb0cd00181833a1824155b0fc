@@ -1,0 +1,28 @@
+package week07;
+
+public class MyArrayList {
+	
+	//main data structure
+	private Object[] internalArray;
+	
+	MyArrayList(){
+		internalArray = new Object[10];
+	}
+	
+	public void add(Object obj) {
+		
+	}
+	
+	public Object get(int n) {
+		//by index
+	}
+	
+	public void delete(int n) {
+		
+	}
+	
+	public int size() {
+		
+	}
+
+}
