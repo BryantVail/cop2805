@@ -2,6 +2,10 @@ package week07Proj;
 
 import java.util.Collection;
 
+/**
+@author	Bryant Vail
+*/
+
 public interface MyList<E> extends Collection<E>{
 
     /**add a new element at the specified index in this list */

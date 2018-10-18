@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.Iterator;
 
 /**
-    public:[add, ]
+    @author	Bryant Vail
  */
 public class MyArrayList<E> implements MyList<E>{
 
