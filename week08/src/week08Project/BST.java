@@ -12,13 +12,56 @@ public class BST<E extends Comparable<E>> extends AbstractTree<E>
 	/** Create a default binary tree */
 	public BST()
 	{
+
 	}
+
+
 
 	/** Create a binary tree from an array of objects */
 	public BST(E[] objects)
 	{
 		for(int i = 0; i < objects.length; i++)
-			insert(objects[i]);
+			insert(objects[i]);//per binarySearchTree rules
+	}
+
+	public List<E> getLeafData(){
+		getLeafData(this.root);
+	}
+
+	public List<E> getLeafData(TreeNode root){
+		/*
+			
+		*/
+		ArrayList<TreeNode> leafList = new ArrayList<>();
+
+		//base case
+		if(root == null){
+			return;
+		}
+
+		if(root.left == null && root.right == null){
+			leafList.add(root.element);
+		}
+		getLeafData(root.left);
+		getLeafData(root.right);
+
+		return leafList;
+	}
+
+
+
+
+
+	public boolean breadthFirstSearch(TreeNode root){
+
+		if(root != null){
+			Queue queue = new Queue();
+			Queue.enqueue(queue, root);
+
+			while(!isEmpty(queue)){
+				TreeNode node = Queue.dequeue(queue);
+			}
+		}
 	}
 
 	/** Returns true if the element is in the tree */
@@ -344,11 +387,5 @@ public class BST<E extends Comparable<E>> extends AbstractTree<E>
 			copy(root.left, tree);
 			copy(root.right, tree);
 		}
-	}
-
-	//auto sub method
-	public List<String> getLeafData() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 }
