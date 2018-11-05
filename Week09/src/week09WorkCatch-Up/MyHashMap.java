@@ -75,7 +75,15 @@ public class MyHashMap<K, V> implements MyMap<K, V>{
         }        
     }//end containsValue(V value)
     
-    
+    @Override /** return a set of entries from the map */
+    public java.util.Set<MyMap.Entry<K,V>> entrySet(){
+        
+        java.util.Set<MyMap.Entry<K,V>> set = new java.util.HashSet<>();
+        
+    }//end entrySet()
+ 
+ 
+ 
 }
 
 
