@@ -31,7 +31,17 @@ public class MyHashMap<K, V> implements MyMap<K, V>{
     }
     
     /** construct a map with the specified initial capacity & load factor */
-
+    public MyHashMap(int initialCapacity, float loadFactorThreshold){
+        if(initialCapacity> MAXIMUM_CAPACITY){
+            this.capacity = MAXIMUM_CAPACITY;
+        }else{
+            this.capacity = trimToPowerOf2(initialCapacity);
+        }
+        
+        this.loadFactorThreshold = loadFactorThreshold;
+        table = new LinkedList[capacity];
+        
+    }//end MyHashmap(initialCapacity, loadFactorThreshold)
     
     
     
