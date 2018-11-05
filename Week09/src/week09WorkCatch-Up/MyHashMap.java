@@ -43,6 +43,36 @@ public class MyHashMap<K, V> implements MyMap<K, V>{
         
     }//end MyHashmap(initialCapacity, loadFactorThreshold)
     
+    @Override /**Remove all of the entries from the map */
+    public void clear(){
+        size = 0;
+        removeEntries();
+    }
+    
+    @Override /**return true if specified key is in the map */
+    public boolean containskey(K key){
+        
+        if(get(key) != null){
+            return true;
+        }else{
+            return false;
+        }
+    }//end containsKey(key)
+    
+    @Override /**return true if this map contains the value */
+    public boolean containsValue(V value){
+     
+        for(int = 0; i < capacity; i++){
+            if(table[i] != null){
+                LinkedList<Entry<K,V>> bucket = table[i];
+                for(Entry<K,V> entry: bucket){
+                    if(entry.getValue().equals(value)){
+                        return true;
+                    }
+                }
+            }
+        }        
+    }//end containsValue(V value)
     
     
 }
