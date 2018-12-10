@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>mysql-connector-java-5.1.47</name>
+			<type>2</type>
+			<location>C:/Users/Bryan/Documents/mySqlExtract/mysql-connector-java-5.1.47</location>
+		</link>
+	</linkedResources>
 </projectDescription>

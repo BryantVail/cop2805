@@ -27,7 +27,6 @@ INDEX VERSION 1.130+C:\Users\Bryan\Documents\GitHub\cop2805\.metadata\.plugins\o
 1055679481.index
 3693261185.index
 2692035760.index
-253484205.index
 1627905402.index
 2288285775.index
 3637040476.index
